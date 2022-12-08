@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/**header**/
+.header-container {
+  display: flex;
+  background-color: #1F2937;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 1350px;
+}
+
+.logos {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.links {
+  align-items: center;
+  color: #E5E7EB;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.coffee-cup-logo {
+  display: flex;
+  width: 60px;
+}
+
+.cinnamon-logo {
+  display: flex;
+  width: 60px;
+  height: 50px;
+  align-self: flex-end;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+
+/**top-body**/
+.top-container {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+}
+
+.top-items {
+  display: flex;
+  justify-content: space-around;
+  width: 1350px;
+}
+
+.top-items-left {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.main-text {
+  color: #F9FAF8;
+  display: flex;
+  font-size: 48px;
+  font-weight: bolder;
+  width: 450px;
+  margin-bottom: 0;
+  position: relative;
+  left: 100px;
+}
+
+.main-paragraph {
+  color: #E5E7EB;
+  display: flex;
+  position: relative;
+  left: 100px;
+  width: 450px;
+}
+
+.btn1 {
+  border-radius: 10px;
+  border: none;
+  color: #E5E7EB;
+  font-size: 15px;
+  background: #3882F6;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  left: 100px;
+  bottom: 50px;
+}
+
+.btn1:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.top-image {
+  border-radius: 10px;
+  display: flex;
+  width: 450px;
+  height: 400px;
+  position: relative;
+  right: 90px;
+}
+
+/**mid-body**/
+.mid-container {
+  display: flex;
+  background-color: #F9FAF8;
+  color: #1F2937;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.mid-items {
+  display: flex;
+  justify-content: center;
+  width: 1349px;
+  flex-wrap: wrap;
+}
+
+.mid-text {
+  display: flex;
+  font-size: 36px;
+  font-weight: bolder;
+  justify-content: center;
+  padding: 30px 0;
+  width: 550px;
+}
+
+.photo-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1350px;
+  padding: 50px 0;
+}
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 250px;
+}
+
+.photo {
+  border-radius: 10px;
+  display: flex;
+  width: 250px;
+  height: 250px;
+}
+
+.photo-description {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: auto;
+  text-align: center;
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  width: 1349px;
+}
+
+.quote {
+  display: flex;
+  width: 400px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-from {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.contact-us-container {
+  display: flex;
+  justify-content: center;
+  width: 1350px;
+  padding: 80px 0;
+}
+
+.contact-us-items {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.contact-us-message {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact-us-text {
+  display: flex;
+  font-size: 21px;
+  position: relative;
+  left: 50px;
+  align-self: center;
+}
+
+.contact-us-paragraph {
+  display: flex;
+  font-size: 15px;
+  position: relative;
+  left: 50px;
+  width: 400px;
+}
+
+.btn2 {
+  border-radius: 10px;
+  border: 1px #E5E7EB solid;
+  color: #E5E7EB;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  font-size: 15px;
+  background: #3882F6;
+  height: 40px;
+  width: 150px;
+  padding: 10px 15px;
+  position: relative;
+  right: 50px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+/**footer**/
+
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  width: 1349px;
+  color: #F9FAF8;
+  padding: 30px 0;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  padding: 0 10px;
+}
